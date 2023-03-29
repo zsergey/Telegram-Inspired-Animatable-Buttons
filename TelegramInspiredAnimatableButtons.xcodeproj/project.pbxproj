@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0030B5291D910A00948255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0030B3291D910A00948255 /* Main.storyboard */; };
+		AD0030B7291D910B00948255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0030B6291D910B00948255 /* Assets.xcassets */; };
+		AD0030BA291D910B00948255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0030B8291D910B00948255 /* LaunchScreen.storyboard */; };
+		AD30E87229D435DE00993D10 /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30E87129D435DE00993D10 /* LineModel.swift */; };
+		AD8B000629D42CFF0038122E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B000329D42CFF0038122E /* ViewController.swift */; };
+		AD8B000729D42CFF0038122E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B000429D42CFF0038122E /* AppDelegate.swift */; };
+		AD8B000829D42CFF0038122E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B000529D42CFF0038122E /* SceneDelegate.swift */; };
+		AD8B000C29D42D270038122E /* DigitalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B000A29D42D270038122E /* DigitalExtensions.swift */; };
+		AD8B000D29D42D270038122E /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B000B29D42D270038122E /* CGPointExtensions.swift */; };
+		AD8B001429D42D490038122E /* TextAligmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B000F29D42D490038122E /* TextAligmentView.swift */; };
+		AD8B001529D42D490038122E /* CancelBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B001029D42D490038122E /* CancelBackView.swift */; };
+		AD8B001629D42D490038122E /* BaseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B001229D42D490038122E /* BaseLayer.swift */; };
+		AD8B001729D42D490038122E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B001329D42D490038122E /* BaseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD0030AA291D910A00948255 /* TelegramInspiredAnimatableButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegramInspiredAnimatableButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0030B4291D910A00948255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0030B6291D910B00948255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0030B9291D910B00948255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0030BB291D910B00948255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD30E87129D435DE00993D10 /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
+		AD8B000329D42CFF0038122E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD8B000429D42CFF0038122E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD8B000529D42CFF0038122E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD8B000A29D42D270038122E /* DigitalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalExtensions.swift; sourceTree = "<group>"; };
+		AD8B000B29D42D270038122E /* CGPointExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtensions.swift; sourceTree = "<group>"; };
+		AD8B000F29D42D490038122E /* TextAligmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAligmentView.swift; sourceTree = "<group>"; };
+		AD8B001029D42D490038122E /* CancelBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelBackView.swift; sourceTree = "<group>"; };
+		AD8B001229D42D490038122E /* BaseLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLayer.swift; sourceTree = "<group>"; };
+		AD8B001329D42D490038122E /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		ADF9CDAA29D43B9F005E4039 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD0030A7291D910A00948255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0030A1291D910A00948255 = {
+			isa = PBXGroup;
+			children = (
+				ADF9CDAA29D43B9F005E4039 /* README.md */,
+				AD0030AC291D910A00948255 /* TelegramInspiredAnimatableButtons */,
+				AD0030AB291D910A00948255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0030AB291D910A00948255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD0030AA291D910A00948255 /* TelegramInspiredAnimatableButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0030AC291D910A00948255 /* TelegramInspiredAnimatableButtons */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B000229D42CFF0038122E /* App */,
+				AD8B000929D42D270038122E /* Extensions */,
+				AD8B000E29D42D490038122E /* AnimatableButtons */,
+				AD0030B3291D910A00948255 /* Main.storyboard */,
+				AD0030B6291D910B00948255 /* Assets.xcassets */,
+				AD0030B8291D910B00948255 /* LaunchScreen.storyboard */,
+				AD0030BB291D910B00948255 /* Info.plist */,
+			);
+			path = TelegramInspiredAnimatableButtons;
+			sourceTree = "<group>";
+		};
+		AD8B000229D42CFF0038122E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B000429D42CFF0038122E /* AppDelegate.swift */,
+				AD8B000529D42CFF0038122E /* SceneDelegate.swift */,
+				AD8B000329D42CFF0038122E /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AD8B000929D42D270038122E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B000A29D42D270038122E /* DigitalExtensions.swift */,
+				AD8B000B29D42D270038122E /* CGPointExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD8B000E29D42D490038122E /* AnimatableButtons */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B001029D42D490038122E /* CancelBackView.swift */,
+				AD8B000F29D42D490038122E /* TextAligmentView.swift */,
+				AD8B001129D42D490038122E /* Base */,
+			);
+			path = AnimatableButtons;
+			sourceTree = "<group>";
+		};
+		AD8B001129D42D490038122E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AD8B001229D42D490038122E /* BaseLayer.swift */,
+				AD8B001329D42D490038122E /* BaseView.swift */,
+				AD30E87129D435DE00993D10 /* LineModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD0030A9291D910A00948255 /* TelegramInspiredAnimatableButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0030BE291D910B00948255 /* Build configuration list for PBXNativeTarget "TelegramInspiredAnimatableButtons" */;
+			buildPhases = (
+				AD0030A6291D910A00948255 /* Sources */,
+				AD0030A7291D910A00948255 /* Frameworks */,
+				AD0030A8291D910A00948255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelegramInspiredAnimatableButtons;
+			productName = TelegramRoundButton;
+			productReference = AD0030AA291D910A00948255 /* TelegramInspiredAnimatableButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0030A2291D910A00948255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AD0030A9291D910A00948255 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AD0030A5291D910A00948255 /* Build configuration list for PBXProject "TelegramInspiredAnimatableButtons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0030A1291D910A00948255;
+			productRefGroup = AD0030AB291D910A00948255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD0030A9291D910A00948255 /* TelegramInspiredAnimatableButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0030A8291D910A00948255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0030BA291D910B00948255 /* LaunchScreen.storyboard in Resources */,
+				AD0030B7291D910B00948255 /* Assets.xcassets in Resources */,
+				AD0030B5291D910A00948255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0030A6291D910A00948255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8B000C29D42D270038122E /* DigitalExtensions.swift in Sources */,
+				AD8B000729D42CFF0038122E /* AppDelegate.swift in Sources */,
+				AD8B001629D42D490038122E /* BaseLayer.swift in Sources */,
+				AD8B000829D42CFF0038122E /* SceneDelegate.swift in Sources */,
+				AD8B000629D42CFF0038122E /* ViewController.swift in Sources */,
+				AD8B001429D42D490038122E /* TextAligmentView.swift in Sources */,
+				AD8B001729D42D490038122E /* BaseView.swift in Sources */,
+				AD8B000D29D42D270038122E /* CGPointExtensions.swift in Sources */,
+				AD8B001529D42D490038122E /* CancelBackView.swift in Sources */,
+				AD30E87229D435DE00993D10 /* LineModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD0030B3291D910A00948255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0030B4291D910A00948255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0030B8291D910B00948255 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0030B9291D910B00948255 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD0030BC291D910B00948255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0030BD291D910B00948255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0030BF291D910B00948255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9N53683T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelegramInspiredAnimatableButtons/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsergey.TelegramInspiredAnimatableButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0030C0291D910B00948255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9N53683T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelegramInspiredAnimatableButtons/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsergey.TelegramInspiredAnimatableButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0030A5291D910A00948255 /* Build configuration list for PBXProject "TelegramInspiredAnimatableButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0030BC291D910B00948255 /* Debug */,
+				AD0030BD291D910B00948255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0030BE291D910B00948255 /* Build configuration list for PBXNativeTarget "TelegramInspiredAnimatableButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0030BF291D910B00948255 /* Debug */,
+				AD0030C0291D910B00948255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD0030A2291D910A00948255 /* Project object */;
+}
